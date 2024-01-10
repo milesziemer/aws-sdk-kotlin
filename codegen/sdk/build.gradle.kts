@@ -324,6 +324,7 @@ tasks.generateSmithyProjections {
         forwardProperty("aws.partitions_file")
         forwardProperty("aws.user_agent.add_metadata")
     }
+    allowUnknownTraits = true
 }
 
 val stageSdks = tasks.register("stageSdks") {
